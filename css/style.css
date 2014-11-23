@@ -9,7 +9,7 @@ File Description:Main CSS file of the template */
 /* Typography
 ----------------------------------------------------------------------------- */
 body {
-	font-family: 'Gotham';
+	font-family: 'Gotham', Helvetica, Open-Sans;
 }
 .site-name {
 	font-family: 'Raleway', sans-serif;
