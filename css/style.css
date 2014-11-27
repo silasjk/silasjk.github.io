@@ -644,7 +644,7 @@ textarea {
 	margin-right: 2px;
 	margin-left: 2px;
 	margin-bottom: 2px;
-	/*display: inline-block;*/
+	display: inline-block;
 	float: none;
 }
 .isotope-container {
