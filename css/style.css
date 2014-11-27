@@ -644,7 +644,7 @@ textarea {
 	margin-right: 2px;
 	margin-left: 2px;
 	margin-bottom: 2px;
-	display: inline-block;
+	/*display: inline-block;*/
 	float: none;
 }
 .isotope-container {
@@ -654,10 +654,10 @@ textarea {
 	margin-bottom: 20px;
 }
 .isotope-item .btn-default {
-	color: #999999;
+	color: #ffffff;
 }
 .isotope-item .btn-default:hover {
-	color: #ffffff;
+	color: #3b5998;
 }
 @media (max-width:480px) {
 	.filters .nav-pills > li {
