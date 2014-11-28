@@ -105,7 +105,9 @@ img {
 	font-size: 18px;
 }
 .list-icons li {
-	padding: 0 0 15px 0;
+	padding: 0 20px 0 20px;
+	display: inline;
+
 }
 blockquote {
 	border-left: none;
@@ -238,10 +240,10 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("https://raw.githubusercontent.com/silasjk/silasjk.github.io/master/images/bg-image-1.JPG") 50% 0px no-repeat;
+	background: url("https://raw.githubusercontent.com/silasjk/silasjk.github.io/master/images/MyWork-Background-Photo.JPG") 50% 0px no-repeat;
 }
 .bg-image-2 {
-	background: url("../images/bg-image-2.jpg") 50% 0px no-repeat;
+	background: url("/images/bg-image-2.jpg") 50% 0px no-repeat;
 }
 
 /* Misc
