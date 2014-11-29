@@ -9,10 +9,10 @@ File Description:Main CSS file of the template */
 /* Typography
 ----------------------------------------------------------------------------- */
 body {
-	font-family: 'Gotham', Helvetica, Open-Sans;
+	font-family: 'Helvetica', Gotham, Open-Sans;
 }
 .site-name {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Helvetica', sans-serif;
 }
 html,
 body {
@@ -344,42 +344,41 @@ blockquote {
 	width: 100%;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border: 1px solid #f0f0f0;
 	border-top: none;
-	background-color: #fafafa
+	background-color: #ffffff;
 }
 .panel-heading a {
 	font-weight: 400;
-	padding: 12px 35px 12px 15px;
+	padding: 0 35px 0 0;
 	display: inline-block;
 	width: 100%;
-	background-color: #55acee;
+	background-color: #ffffff;
 	color: black;
 	position: relative;
 	text-decoration: none;
 }
 .panel-heading a.collapsed {
-	color: #ffffff;
-	background-color: #333333;
+	color: #333333;
+	background-color: #ffffff;
 }
 .panel-heading a:after {
-	font-family: "FontAwesome";
-	content: "\f147";
+	/*font-family: "FontAwesome";*/
+	content: "Close"; /*\f147*/
 	position: absolute;
 	right: 15px;
-	font-size: 14px;
+	font-size: inherit;
 	font-weight: 300;
 	top: 50%;
 	line-height: 1;
 	margin-top: -7px;
 }
 .panel-heading a.collapsed:after {
-	content: "\f196";
+	content: "Read More";
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #55acee;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #55acee;
 }
 .panel-title a i {
 	padding-right: 10px;
