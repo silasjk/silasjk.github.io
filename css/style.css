@@ -14,42 +14,42 @@ body {
 .site-name {
 	font-family: 'Helvetica', sans-serif;
 }
-html,
-body {
+html, body {
 	height: 100%;
 }
 body {
-	font-size: 15px;
+	font-size: 1.6em;
+	font-weight: 300;
 	line-height: 1.50;
-	color: #333333;
+	color: #333;
 	background-color: #ffffff;
 	position: relative;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	color: #333333;
 }
+
 h1 {
-	font-size: 50px;
-	font-weight: 200px;
+	font-size: 5em;
+	font-weight: 400;
 	margin-bottom: 20px;
 }
+
 h2 {
-	font-size: 28px;
+	font-size: 4em;
 	margin-bottom: 15px;
 }
+
 h3 {
-	font-size: 22px;
+	font-size: 3em;
 }
+
 h4 {
-	font-size: 18px;
+	font-size: 2em;
 }
+
 h5 {
-	font-size: 16px;
+	font-size: 1em;
 	text-transform: uppercase;
 
 }
@@ -289,7 +289,7 @@ blockquote {
 	color: #ffffff;
 }
 .banner-caption h1 {
-	font-size: 100px;
+	font-size: 5em;
 }
 
 .subfooter p {
@@ -348,7 +348,7 @@ blockquote {
 	background-color: #ffffff;
 }
 .panel-heading a {
-	font-weight: 400;
+	font-weight: 300;
 	padding: 0 35px 0 0;
 	display: inline-block;
 	width: 100%;
@@ -500,10 +500,10 @@ textarea {
 @media (min-width:768px) and (max-width:991px) {
 	.main-navigation .container-fluid {
 		padding-left: 0;
-		padding-right: 100px;
+		padding-right: 0;
 	}
 	.navbar-nav {
-		float: left !important;
+		float: right !important;
 	}
 }
 @media (max-width:767px) {
@@ -718,4 +718,13 @@ textarea {
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+
+/*Custom*/
+
+@media (min-width: 1440px) {
+	.container-banner {
+		width: 100%;
+	}
 }
