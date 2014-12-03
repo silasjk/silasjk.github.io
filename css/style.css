@@ -18,7 +18,7 @@ html, body {
 	height: 100%;
 }
 body {
-	font-size: 1.6em;
+	font-size: 1em;
 	font-weight: 300;
 	line-height: 1.50;
 	color: #333;
@@ -30,26 +30,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 3em;
 	font-weight: 400;
 	margin-bottom: 20px;
 }
 
 h2 {
-	font-size: 4em;
+	font-size: 2.25em;
 	margin-bottom: 15px;
 }
 
 h3 {
-	font-size: 3em;
-}
-
-h4 {
 	font-size: 2em;
 }
 
+h4 {
+	font-size: 1.5em;
+}
+
 h5 {
-	font-size: 1em;
+	font-size: 1.25em;
 	text-transform: uppercase;
 
 }
@@ -114,6 +114,28 @@ blockquote {
 	margin-top: 0;
 }
 
+@media (min-width: 768px) {
+	body{
+		font-size: 1em;
+			font-weight: 300;
+	line-height: 1.50;
+	color: #333;
+	background-color: #ffffff;
+	position: relative;
+	}
+}
+
+@media (max-width: 768px) {
+	body{
+		font-size: 0.8em;
+		font-weight: 300;
+	line-height: 1.50;
+	color: #333;
+	background-color: #ffffff;
+	position: relative;
+	}
+}
+
 /* Layout
 ----------------------------------------------------------------------------- */
 .header {
@@ -154,6 +176,14 @@ blockquote {
 	width: 100%;
 	z-index: 2;
 }
+
+@media (min-width: 1px) and (max-width: 768px) {
+	.banner-caption h1{
+		font-size: 1em;
+	}
+}
+
+
 .subfooter {
 	background-color: #fafafa;
 	border-top: 1px solid #f3f3f3;
@@ -236,10 +266,11 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("https://raw.githubusercontent.com/silasjk/silasjk.github.io/master/images/MyWork-BackgroundPhoto.jpg") 50% 0px no-repeat;
-}
-.bg-image-2 {
-	background: url("/images/bg-image-2.jpg") 50% 0px no-repeat;
+	background: url("images/Background-Pic1.JPG") no-repeat;
+	--webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* Misc
@@ -288,8 +319,17 @@ blockquote {
 .banner-caption h6 {
 	color: #ffffff;
 }
-.banner-caption h1 {
-	font-size: 5em;
+
+@media (min-width: 768px) {
+	.banner-caption h1 {
+		font-size: 5em;
+	}
+}
+
+@media (max-width: 768px) {
+	.banner-caption h1 {
+		font-size: 3em;
+	}
 }
 
 .subfooter p {
@@ -362,8 +402,8 @@ blockquote {
 	background-color: #ffffff;
 }
 .panel-heading a:after {
-	/*font-family: "FontAwesome";*/
-	content: "Close"; /*\f147*/
+	content: "Close";
+	color: #55acee;
 	position: absolute;
 	right: 15px;
 	font-size: inherit;
@@ -706,7 +746,7 @@ textarea {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	font-size: 18px;
+	font-size: inherit;
 	line-height: 1x;
 	color: #ffffff;
 	margin-top: -8px;

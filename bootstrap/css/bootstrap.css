@@ -895,16 +895,11 @@ th {
           box-sizing: border-box;
 }
 html {
-  font-size: 10px;
+  font-size: 16px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
 }
 input,
 button,
@@ -1107,15 +1102,22 @@ p {
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: inherit;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
 }
+
+@media (max-width: 768px) {
+  .lead{
+    font-size: 1em;
+  }
+}
+
 small,
 .small {
   font-size: 85%;
@@ -5597,6 +5599,7 @@ button.close {
   height: 50px;
   overflow: scroll;
 }
+
 @media (min-width: 768px) {
   .modal-dialog {
     width: 600px;
