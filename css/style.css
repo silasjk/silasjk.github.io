@@ -102,7 +102,6 @@ img {
 }
 .list-icons li {
 	padding: 0 20px 0 20px;
-	display: inline;
 
 }
 blockquote {
@@ -630,10 +629,9 @@ textarea {
 .social-links li {
 	margin: 10px 25px 10px 0;
 	display: inline-block;
-	font-size: 36px;
+	font-size: inherit;
 }
 .social-links li a {
-	color: #333333;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
