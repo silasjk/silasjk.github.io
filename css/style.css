@@ -102,6 +102,7 @@ img {
 }
 .list-icons li {
 	padding: 0 20px 0 20px;
+	display: inline-block;
 
 }
 blockquote {
@@ -163,8 +164,7 @@ blockquote {
 	height: 100%;
 	min-height: 100%;
 	position: relative;
-	/*color: #fff;*/
-	background: url("/images/Banner.JPG");
+	background: url("images/Banner.JPG");
 }
 .banner-image {
 	vertical-align: middle;
@@ -201,7 +201,7 @@ blockquote {
 	padding: 40px 0;
 }
 .section {
-	background-color: #ffffff;
+	background-color: #E6E6E6;
 	padding: 80px 0;
 }
 
@@ -276,12 +276,11 @@ blockquote {
 	position: relative;
 }
 .bg-image-1 {
-	background: url("images/Background-Pic1.JPG") no-repeat;
+	background: url("images/MyWork-Bg01.jpg") no-repeat;
 	--webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: ##E6E6E6;
 }
 
 /* Misc
@@ -311,10 +310,10 @@ blockquote {
 	padding: 20px 0;
 }
 .pr-10 {
-	padding-right: 10px;
+	padding-right: 1em;
 }
 .pl-10 {
-	padding-left: 10px;
+	padding-left: 1em;
 }
 .pb-clear {
 	padding-bottom: 0;
@@ -396,43 +395,39 @@ blockquote {
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border-top: none;
-	background-color: #ffffff;
+	background-color: #E6E6E6;
 }
 .panel-heading a {
 	font-weight: 300;
-	padding: 0 35px 0 0;
+	padding: 0 0 0 0;
 	display: inline-block;
 	width: 100%;
-	background-color: #ffffff;
+	background-color: #E6E6E6;
 	color: black;
 	position: relative;
 	text-decoration: none;
 }
 .panel-heading a.collapsed {
 	color: #333333;
-	background-color: #ffffff;
+	background-color: #E6E6E6;
 }
-.panel-heading a:after {
-	content: "Close";
+.panel-heading a:before {
+	font-family: "FontAwesome";
+	content: "\f147";
 	color: #55acee;
-	position: absolute;
-	right: 15px;
-	font-size: inherit;
-	font-weight: 300;
-	top: 50%;
-	line-height: 1;
-	margin-top: -7px;
+	position: relative;
+	padding-right: 1em;
 }
-.panel-heading a.collapsed:after {
-	content: "Read More";
+.panel-heading a.collapsed:before {
+	content: "\f196";
 }
 .panel-heading a:hover {
 	text-decoration: none;
-	background-color: #ffffff;
+	background-color: #E6E6E6;
 	color: #55acee;
 }
-.panel-title a i {
-	padding-right: 10px;
+.panel-title a {
+	padding-left: 10px;
 	font-size: 20px;
 }
 
@@ -526,7 +521,7 @@ textarea {
 .main-navigation .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	padding: 10px 20px;
-	font-size: 15px;
+	font-size: 1em;
 	font-weight: 300;
 }
 .main-navigation .navbar-default .navbar-nav > li.active > a {
