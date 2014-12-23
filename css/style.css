@@ -164,7 +164,7 @@ blockquote {
 	min-height: 100%;
 	position: relative;
 	/*color: #fff;*/
-	background: url("https://raw.githubusercontent.com/silasjk/silasjk.github.io/master/images/Banner.JPG");
+	background: url("/images/Banner.JPG");
 }
 .banner-image {
 	vertical-align: middle;
