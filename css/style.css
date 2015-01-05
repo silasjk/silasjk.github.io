@@ -164,8 +164,8 @@ blockquote {
 	height: 100%;
 	min-height: 100%;
 	position: relative;
-	background: url("/images/banner.jpg");
 }
+
 .banner-image {
 	vertical-align: middle;
 	min-height: 100%;
