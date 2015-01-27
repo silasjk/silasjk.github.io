@@ -102,13 +102,12 @@ ul.none li{
 }
 .contacts ul{
 	list-style-type: none;
-	margin:0;
+	margin:0 0 1em 0;
 	padding:0;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	line-height: 1.6em;
 	text-transform: uppercase;
 	font-weight: inherit;
-	margin-bottom: 1em;
 }
 .contacts ul li{
 	display: inline;
@@ -246,7 +245,7 @@ ul.none li{
 
 /*== Media Queries ==*/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.page-title h1{
 		font-size: 4em;
 	}
@@ -269,5 +268,31 @@ ul.none li{
 	.modal-img{
 		width: 100%;
 		height: auto;
+	}
+}
+
+@media (min-width: 768px){
+	.me{
+		height: 41em;
+	}
+	.education{
+		height: 41em;
+	}
+	.skills{
+		height: 440px;
+	}
+	footer{
+		margin-top: 1em;
+	}
+	.work{
+		height: 11em;
+	}
+	.modal-img{
+		width: 100%;
+		height: auto;
+	}
+	.contacts ul{
+		font-size: inherit;
+		display: inline;
 	}
 }

@@ -476,8 +476,8 @@ button.close {
 }
 .modal-dialog {
   position: relative;
-  width: auto;
-  margin: 10px;
+  width: 90%;
+  margin: 30px auto;
 }
 .modal-content {
   position: relative;
@@ -911,16 +911,9 @@ button.close {
   .col-sm-offset-0 {
     margin-left: 0%;
   }
-  .modal-dialog {
-    width: 600px;
-    margin: 30px auto;
-  }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-  }
-  .modal-sm {
-    width: 300px;
   }
 }
 @media (min-width: 992px) {
@@ -1082,9 +1075,6 @@ button.close {
   }
   .col-md-offset-0 {
     margin-left: 0%;
-  }
-  .modal-md {
-    width: 900px;
   }
 }
 @media (min-width: 1200px) {
