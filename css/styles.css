@@ -140,7 +140,7 @@ ul.none li{
 }
 .skills{
 	background-color: #2C3E50;
-	height: 30.1em;
+	height: 30em;
 	border: 1px solid #fff;
 	padding: 15px;
 	color: #fff;
@@ -241,58 +241,4 @@ ul.none li{
 }
 .blog-box h4{
 	color: #000;
-}
-
-/*== Media Queries ==*/
-
-@media (max-width: 767px) {
-	.page-title h1{
-		font-size: 4em;
-	}
-	.contacts ul li{
-		font-size: inherit;
-		display: block;
-	}
-	.me{
-		height: 100%;
-	}
-	.education{
-		height: 100%;
-	}
-	.skills{
-		height: 100%;
-	}
-	footer{
-		margin-top: 1em;
-	}
-	.modal-img{
-		width: 100%;
-		height: auto;
-	}
-}
-
-@media (min-width: 768px){
-	.me{
-		height: 41em;
-	}
-	.education{
-		height: 41em;
-	}
-	.skills{
-		height: 440px;
-	}
-	footer{
-		margin-top: 1em;
-	}
-	.work{
-		height: 11em;
-	}
-	.modal-img{
-		width: 100%;
-		height: auto;
-	}
-	.contacts ul{
-		font-size: inherit;
-		display: inline;
-	}
 }
