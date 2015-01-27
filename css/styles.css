@@ -14,10 +14,6 @@ body{
 	font-family: "Chivo", Helvetica, sans-serif, open-sans;
 	line-height: 1.6em;
 }
-header{
-	margin-left: auto;
-	margin-right: auto;
-}
 h1{
 	font-size: 6em;
 	font-weight: 600;
@@ -65,7 +61,29 @@ a:hover{
 	color: #93C3E3;
 }
 
+/*== Header & Footer ==*/
+
+header{
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	height: 3em;
+	width: 100%;
+	top: 100%;
+	background-color: transparent;
+	text-align: center;
+	margin-top: 4em;
+}
+footer p{
+	font-size: 1em;
+	margin: 8px 0 0;
+	padding: 0;
+	color: #000;
+}
+
 /*== Lists ==*/
+
 ul li{
 	font-size: 1.5em;
 	line-height: 1.6em;
@@ -81,6 +99,19 @@ ul.none-inline{
 }
 ul.none li{
 	line-height: 0;
+}
+.contacts ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	text-transform: uppercase;
+	font-weight: inherit;
+	margin-bottom: 1em;
+}
+.contacts ul li{
+	display: inline;
 }
 
 /*== margins ==*/
@@ -163,22 +194,6 @@ ul.none li{
 .work:hover .overlay{
 	opacity: 0.9;
 }
-/*== Footer ==*/
-
-footer{
-	height: 3em;
-	width: 100%;
-	top: 100%;
-	background-color: transparent;
-	text-align: center;
-	margin-top: 4em;
-}
-footer p{
-	font-size: 1em;
-	margin: 8px 0 0;
-	padding: 0;
-	color: #000;
-}
 
 /*== Modal ==*/
 
@@ -189,6 +204,9 @@ footer p{
 	padding: 15px 0;
 	width: 600px;
 	height: 429px;
+}
+.modal-text{
+	padding: 0 15px;
 }
 
 /*== Button ==*/
@@ -224,4 +242,32 @@ footer p{
 }
 .blog-box h4{
 	color: #000;
+}
+
+/*== Media Queries ==*/
+
+@media (max-width: 768px) {
+	.page-title h1{
+		font-size: 4em;
+	}
+	.contacts ul li{
+		font-size: inherit;
+		display: block;
+	}
+	.me{
+		height: 100%;
+	}
+	.education{
+		height: 100%;
+	}
+	.skills{
+		height: 100%;
+	}
+	footer{
+		margin-top: 1em;
+	}
+	.modal-img{
+		width: 100%;
+		height: auto;
+	}
 }
