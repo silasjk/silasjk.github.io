@@ -8,6 +8,6 @@ categories: useless
 
 Just let me think, and get off my back.
 
-Super rad cool, eh?
+Super rad cool, eh? I should probably make this look a bit nicer too hey?
 
 Until next time.
