@@ -60,6 +60,9 @@ a{
 a:hover{
 	color: #93C3E3;
 }
+.panel-body h4{
+	color: #000;
+}
 
 /*== Header & Footer ==*/
 
