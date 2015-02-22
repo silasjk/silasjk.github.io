@@ -1,36 +1,19 @@
 ---
-layout: default
+layout: default-blog
 ---
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12">
-			<div class="page-title">	
-				<h1>A Blog by any other Name</h1>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-xs-12">
-			<div class="contacts">
-				<ul>
-					<li><a href="index.html"><i class="fa fa-home"></i><span class="left-5"></span>Home</a></li>
+		<div class="col-xs-6 col-xs-offset-2">
+			<div class="blog-holder">
+				<ul class="blog-list">
+					{% for posts in site.posts %}<li><h4><a href="{{site.baseurl}}{{posts.url}}">{{posts.title}}</a></h4><p>{{posts.meta}}</p></li>{% endfor %}
 				</ul>
 			</div>
 		</div>
-	</div>
-	<hr>
-</div>
-<div class="container">
-	<div class="row">
-		<div class="col-xs-12">
-			<ul class="blog-list">
-				{% for posts in site.posts %}
-					<li>
-						<h4><a href="{{site.baseurl}}{{posts.url}}">{{posts.title}}</a></h4>
-						<p>{{posts.meta}}</p>
-					</li>
-				{% endfor %}
-			</ul>
-		</div>
+<!-- 		<div class="col-xs-4">
+			<div class="blog-search">
+				<p>Search</p>
+			</div>
+		</div> -->
 	</div>
 </div>

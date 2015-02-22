@@ -112,15 +112,7 @@ ul.none-inline{
 ul.none li{
 	line-height: 0;
 }
-ul.blog-list{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-ul.blog-list p{
-	font-size: 1em;
-	margin: 0.5em 0;
-}
+
 .contacts ul{
 	list-style-type: none;
 	margin:0 0 1em 0;
@@ -134,7 +126,59 @@ ul.blog-list p{
 	display: inline;
 	padding-left: 0.5em;
 }
-
+.social-footer p{
+	font-size: 0.5em;
+}
+.social-footer{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	font-size: 4em;
+	/*line-height: 1.6em;*/
+	text-transform: uppercase;
+	font-weight: inherit;
+	text-align: left;
+}
+.social-footer ul{
+	margin: 0;
+	padding:0;
+}
+.social-footer ul li{
+	display: inline;
+	margin: 0;
+}
+/*== Blog ==*/
+ul.blog-list{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+ul.blog-list li{
+	/*border: 0.1em solid black;*/
+	margin-bottom: 2em;
+}
+ul.blog-list p{
+	font-size: 1em;
+	margin: 0.5em 0;
+}
+.blog-search{
+	margin-left: 2em;
+	padding-left: 1em;
+	border: 0.1em solid black;
+}
+.blog-holder h3{
+	color: #000;
+	text-transform: uppercase;
+	padding-top: 0.1em;
+	margin: 0.2em 0 0.5em;
+}
+.blog-holder p{
+	font-size: 1.7em;
+}
+.blog-date{
+	font-style: italic;
+	color: #595959;
+}
 /*== margins ==*/
 .left-5{margin-left: 5px;}
 .left-10{margin-left: 10px;}
@@ -167,6 +211,10 @@ ul.blog-list p{
 	padding: 15px;
 	color: #fff;
 }
+
+/*.blog-holder{
+	border: 0.2em solid black;
+}*/
 
 /*== My Work Examples ==*/
 .work{
