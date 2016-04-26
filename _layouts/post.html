@@ -1,0 +1,14 @@
+---
+layout: default-blog
+---
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-2">
+			<div class="blog-holder">
+				<h3>{{page.title}}</h3>
+				<p class="blog-date">{{ page.date | date: "%-d %B %Y" }}</p>
+				{{content}}
+			</div>
+		</div>
+	</div>
+</div>

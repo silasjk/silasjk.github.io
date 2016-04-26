@@ -1,3 +1,5 @@
 markdown: redcarpet
-baseurl: http://www.silaskidd.com
+url: http://www.silaskidd.com
 exclude: ['README.md']
+
+port: 4000
