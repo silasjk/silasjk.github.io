@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
 url: http://www.silaskidd.com
 exclude: ['README.md']
 
