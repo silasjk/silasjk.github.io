@@ -98,8 +98,14 @@ Footer
 footer{
 	margin-top: 4em;
 	padding: 20px 0;
-	background-color: #f5f5f5;
+	background-color: #C1BDBE;
 	text-align: center;
+}
+
+footer .colophon{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-size: 0.8em;
 }
 
 /*
@@ -113,16 +119,16 @@ Button
 a.social-icon{
 	display: block;
 	font-size: 2em;
-    border: 1px solid black;
+    border: 1px solid #4C6082;
     border-radius: 50%;
     padding: 5px 15px;
     transition: all 500ms ease-out;
 }
 
 a.social-icon:hover{
-	color: #f5f5f5;
-	background: #ffffff;
-	border-color: #f5f5f5;
+	color: #C8BFBA;
+	background: #383342;
+	border-color: #DAD4D5;
 }
 
 /*
@@ -210,7 +216,6 @@ ul.social-list{
 
 ul.social-list li{
 	display: inline-block;
-	margin: 0 5px
 }
 
 /*
