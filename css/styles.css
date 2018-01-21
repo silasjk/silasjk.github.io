@@ -259,3 +259,80 @@ Skills
 .star-cells i.n{
 	color: #DAD4D5;
 }
+
+
+/*
+Form
+---------------------------*/
+div.contact-form-wrapper{
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	width: 100%;
+	max-width: 768px;
+	min-width: 0;
+}
+
+form.contact-form{
+	width: 100%;
+	font-size: 14px;
+	transition: all 500ms ease-out;
+}
+
+form.contact-form input{
+	width: 100%;
+	margin-top: 0.5em;
+	margin-right: 0;
+	margin-bottom: 0.5em;
+	margin-left: 0;
+	padding: 0.5em;
+	border: 1px solid #4C6082;
+	border-radius: 0.25em;
+}
+
+form.contact-form input:focus{
+	outline: 0;
+	border-bottom: 2px solid #4C6082;
+}
+
+form.contact-form textarea{
+	height: 150px;
+	width: 100%;
+	min-width: 100%;
+	padding: 0.5em;
+	border-radius: 0.25em;
+	border: 1px solid #4C6082;
+}
+
+form.contact-form textarea:focus{
+	outline: 0;
+	border-bottom: 2px solid #4C6082;
+}
+
+input.form-sub{
+	display: none;
+}
+
+/*
+Button
+---------------------------*/
+.btn-default{
+	width: 30% !important;
+	color: #fff;
+	font-size: 14px;
+	background: #4C6082;
+	border: 1px solid #4C6082 !important;
+	text-shadow: 1px 1px 5px rgba( 0, 0, 0, 0.9);
+	box-shadow: inset 1px 1px 10px rgba( 0, 0, 0, 0.1 );
+}
+
+.btn-default:hover{
+	background: #80a1db;
+	border-color: #80a1db !important;
+	box-shadow: inset 1px 1px 10px rgba( 0, 0, 0, 0.5 );
+}
+
+.btn-default:active{
+	box-shadow: inset 1px 1px 10px rgba( 0, 0, 0, 0.9 );	
+}
