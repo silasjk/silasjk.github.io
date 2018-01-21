@@ -172,13 +172,18 @@ Portfolio box
 	width: 100%;
 	background: rgba(218, 212, 213, 0.95);
 	font-size: 14px;
-	overflow: hidden;
+	overflow: scroll;
 }
 
 .pop-up .close{
 	text-align: right;
 	font-weight: 100;
 	font-size: 1.2em;
+}
+
+.pop-inner{
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
 }
 
 .pop-up a{
