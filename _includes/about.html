@@ -1,0 +1,38 @@
+<!-- About Section -->
+<section id="about" style="">
+
+    <div class="container-fluid">
+    
+        <div class="row">
+
+            <div class="col-sm-12 col-lg-6">
+                <h2>About</h2>
+                <p>A designer, a creator. I am passionate about web design and creating beautiful sites that work. A self starter that will be an asset on any of your campaigns.</p>
+                <p>Besides design, you can find me listening to music, mostly hip hop. Watching far too much NBA and wondering if this year is actually going to be the year for Liverpool FC.</p>
+                <p>Or just check out my <a href="https://www.dropbox.com/s/l2kb4tl628pf90x/Resume%20of%20Silas%20Kidd.pdf?dl=0" target="_BLANK">resume</a>.</p>
+            
+            </div>
+
+            <div class="col-sm-12 col-lg-6">
+                <h2>Skills</h2>
+                {% for skills in site.data.skills %}
+                    <div class="skill-wrapper d-flex no-gutters">
+
+                        <div class="col-lg-4">
+                            <p>{{ skills.skill }}</p>
+                        </div>
+                            
+                        <div class="col-lg-8 d-flex align-items-center">
+                            <div class="skill-bar">
+                                <span class="skill-bar-rating" style="width:{{ skills.rating }};"></span>
+                            </div>
+                        </div>
+                                            
+                    </div>
+                {% endfor %}
+            </div>
+
+        </div><!-- .row -->
+    </div><!-- .container -->
+</section><!-- #about -->
+<!-- End About Section -->

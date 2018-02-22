@@ -1,0 +1,38 @@
+<!-- Skills Modal -->
+<div class="modal fade in fullscreen" id="skills-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid">
+                <h2 class="text-center">My Skills</h2>
+                <div class="row">
+                    {% for skills in site.data.skills %}
+                        <div class="col-sm-12 col-md-6 col-lg-8 offset-lg-2 offset-md-3 skill-wrapper">
+                            <div class="d-flex">
+                                
+                                <div class="col-lg-6 text-right">
+                                    <p>{{ skills.skill }}</p>
+                                </div>
+                                
+                                <div class="col-lg-6 d-flex align-items-center">
+                                    <div class="skill-bar">
+                                        <span class="skill-bar-rating" style="width:{{ skills.rating }};"></span>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Skills Modals -->

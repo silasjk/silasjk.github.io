@@ -1,5 +1,16 @@
 markdown: kramdown
-url: http://www.silaskidd.com
+
 exclude: ['README.md']
+
+title: Silas Kidd
+email: silaskidd@gmail.com
+description: > # this means to ignore newlines until "author:" 
+  A designer, a creator. 
+  I am passionate about making beautiful things work.
+author: Silas Kidd
+keyword: design
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://www.silaskidd.com
+github_username:  silasjk
 
 port: 4000

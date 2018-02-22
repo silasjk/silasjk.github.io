@@ -1,5 +1,6 @@
+
 $(document).ready( function(){
-    
+
     /*---------------------------------
 	* Smooth scroll
     ---------------------------------*/
@@ -13,7 +14,7 @@ $(document).ready( function(){
     });
 
     /*---------------------------------
-    * Scroll up the portfolio
+     * Scroll up the portfolio
     ---------------------------------*/
     $( 'a[name="toggle-pop"]' ).on( 'click', function( e ) {
 

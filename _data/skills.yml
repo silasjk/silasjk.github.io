@@ -1,0 +1,79 @@
+- order: 001
+  skill: 'Adobe Photoshop'
+  rating: '100%'
+
+- order: 002
+  skill: 'Adobe Illustrator'
+  rating: '100%'
+
+- order: 003
+  skill: 'Adobe Indesign'
+  rating: '100%'
+
+- order: 004
+  skill: 'Adobe After Effects'
+  rating: '75%'
+
+- order: 005
+  skill: 'Adobe Premier'
+  rating: '50%'
+
+- order: 006
+  skill: 'HTML5/CSS'
+  rating: '100%'
+
+- order: 007
+  skill: 'PHP'
+  rating: '100%' 
+
+- order: 8
+  skill: 'SQL (MySQl, TSQL)'
+  rating: '100%'
+
+- order: 9
+  skill: 'JavaScript (inlcuding jQuery)'
+  rating: '100%'  
+
+- order: 010
+  skill: 'D3.js'
+  rating: '80%'
+
+- order: 011
+  skill: 'Python'
+  rating: '50%'
+
+- order: 012
+  skill: 'WordPress'
+  rating: '100%'
+
+- order: 013
+  skill: 'Drupal'
+  rating: '75%'
+
+- order: 014
+  skill: 'civiCRM'
+  rating: '100%'
+
+- order: 015
+  skill: 'Google Analytics'
+  rating: '100%'
+
+- order: 016
+  skill: 'Webmaster tools'
+  rating: '100%'
+
+- order: 017
+  skill: 'SEO'
+  rating: '100%'
+
+- order: 018
+  skill: 'UX/UI'
+  rating: '80%'
+
+- order: 019
+  skill: 'Mail Chimp'
+  rating: '89.94837285%'
+
+- order: 020
+  skill: 'Email Templates'
+  rating: '90%'

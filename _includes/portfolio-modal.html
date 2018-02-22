@@ -1,0 +1,42 @@
+   
+   <!-- Portfolio Modals -->
+    {% for project in site.data.portfolio %}
+    <div class="portfolio-modal modal fade in" id="{{ project.id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        
+        <div class="modal-dialog">
+            
+            <div class="modal-content">
+                
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <div class="modal-body text-center">
+                                <h2>{{ project.name }}</h2>
+                                <p class="item-intro text-muted">{{ project.claim }}</p>
+                                <img class="img-responsive img-centered" src="/images/{{ project.photo }}" alt="{{ project.img-alt }}">
+                                <p>{{ project.description }}</p>
+                                <p><a href="{{ project.web }}">{{ project.web }}</a></p>
+                                <p class="text-muted">{{ project.skills }}</p>
+                                <ul class="list-inline font_small">
+                                    <li><span class="text-muted">Date:</span> {{ project.date }}</li>
+                                    <li><span class="text-muted">Client:</span> {{ project.client }}</li>
+                                    <li><span class="text-muted">Category:</span> {{ project.category }}</li>                      
+                                </ul>
+                                <button type="button" class="btn btn-close font_small" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <!-- End Portfolio Modals -->
