@@ -1,4 +1,18 @@
-- order: 001
+- order: 021
+  name: "Ruined City"
+  category: "Web Design & Development"
+  date: "January 2018"
+  client: "Ruined City"
+  web: "http://ruinedcity.com.au"
+  photo: "ruinedcityarchitects.png"
+  img-alt: "Ruined City Architects"
+  id: "portfolioModal21"
+  description: "A website for a small architecture firm Ruined City. The website is mostly for the firm to display their current and past projects to perspective clients"
+  claim: "A website for a small architecture firm"
+  call-to-action: ""
+  skills: "Wordpress, custom WordPress theme, SEO, Google Analytics"
+
+- order: 020
   name: "Coffee PEDDLR"
   category: "Web Design"
   date: "January 2018"
@@ -6,13 +20,13 @@
   web: "http://coffeepeddlr.com.au"
   photo: "coffeepeddlr.png"
   img-alt: "Coffee PEDDLR"
-  id: "portfolioModal01"
+  id: "portfolioModal20"
   description: "A simple and clean website for a coffee van that has found a permanent home in an Abbotsford warehouse. Responsible for the design and development for the site."
   claim: "A website for a coffee van that is now parked in an Abbotsford warehouse"
   call-to-action: ""
   skills: "Wordpress, custom WordPress theme, custom fonts, custom svg icons"
 
-- order: 002
+- order: 019
   name: "IDC Online Learning Toolkit"
   category: "Web Design"
   date: "Feb 2017 - Dec 2017"
@@ -20,13 +34,13 @@
   web: "https://toolkit.idcoalition.org"
   photo: "idctoolkit.png"
   img-alt: "IDC Toolkit"
-  id: "portfolioModal02"
+  id: "portfolioModal19"
   description: "An online learning platform built on WordPress using Learndash LMS and a child theme. I was responsible for redesigning the UI and UX, and adding the ability to add a Spanish translation. <p>The courses utilise research completed by the IDC into alternatives to immigration detention."
   claim: "An online learning platform that required an updated user interface, user experience and spanish translation"
   call-to-action: ""
   skills: "Wordpress, WP child themes, LearnDash LMS, WPML"
 
-- order: 003
+- order: 018
   name: "IDC Database"
   category: "Web Development"
   date: "Feb 2017 - Dec 2017"
@@ -34,14 +48,14 @@
   web: "https://database.idcoalition.org"
   photo: "idcdatabase.png"
   img-alt: "IDC Database"
-  id: "portfolioModal03"
+  id: "portfolioModal18"
   description: "The IDC needed a system that catalogues their research into alternatives to detention. I built a system based on their Community and Assessment (CAP) model. The database will free up the time of IDC staff. It also is simple to access for staff who often work in remote areas around the world.
   The database needed to be easy for users to search for and find the relevant information. And for IDC staff to update and add new information. "
   claim: "A catalogue database system."
   call-to-action: ""
   skills: "WordPress, custom WP plugins, Object Oriented PHP, custom WP theme, relational database (MySQL)"
 
-- order: 019
+- order: 017
   name: "End Child Detention Animation"
   category: "Animation"
   date: "August 2017"
@@ -49,14 +63,14 @@
   web: "https://www.facebook.com/endchilddetention/videos/1466724580080909/"
   photo: "ecdanimation.png"
   img-alt: "End Child Detention Animation"
-  id: "portfolioModal19"
+  id: "portfolioModal17"
   description: "An animation used to engage readers to take an action and sign the End Child Detention petition. Posted on Facebook, the animation was significant in pushing towards 10,000 signatures.
   <p>Follow the link to see the whole animation."
   claim: "A simple animation for social media posts"
   call-to-action: ""
   skills: 'Adobe After Effects'
 
-- order: 004
+- order: 016
   name: "End Child Detention"
   category: "Web Development"
   date: "Feb 2017 - Dec 2017"
@@ -64,13 +78,13 @@
   web: "https://endchilddetention.org"
   photo: "endchilddetention.png"
   img-alt: "End Child Detention"
-  id: "portfolioModal04"
+  id: "portfolioModal16"
   description: "Run by the IDC the End Child Detention campaign has a goal to get children out of immigration detention. I used civiCRM to migrate and organise their already 5000+. As well as allowing an ability to continue to sign up new supporters.  The website needed on going maintenance as well as added SEO and the ability to share pages on social media."
   claim: "A campaigning website for the International Detention Coalition"
   call-to-action: ""
   skils: 'WordPress, WP Child themes, civiCRM, civiCRM API, WPML'
 
-- order: 005
+- order: 014
   name: "International Detention Coalition"
   category: "Web Development"
   date: "Feb 2017 - Dec 2017"
@@ -78,13 +92,13 @@
   web: "https://idcoalition.org"
   photo: "idcwebsite.png"
   img-alt: "International Detention Coalition"
-  id: "portfolioModal05"
+  id: "portfolioModal15"
   description: "This site needed continual maintence to improve areas such as page speeds, SEO. As with all IDC sites, it required the ability to translate the pages into Spanish"
   claim: "The main website of the International Detention Coalition. A not for profit organisation working towards ending immigration detention around the world."
   call-to-action: ""
   skill: 'WordPress, wordpress plugins, WPML'
 
-- order: 006
+- order: 013
   name: "Clay by Tina"
   category: "Web Design"
   date: "Feb 2017"
@@ -92,13 +106,13 @@
   web: "https://claybytina.com"
   photo: "claybytina.png"
   img-alt: "Clay by Tina"
-  id: "portfolioModal06"
+  id: "portfolioModal13"
   description: "Clay by Tina is a small ceramics business in Melbourne that required a website redesign. The redesign had a focus on improving the ability for users to reach and make purchases on the online store."
   claim: "Redesinging and improving the ecommerce site for a small ceramics business."
   call-to-action: ""
   skills: "Wix, UI, SEO"
 
-- order: 007
+- order: 012
   name: "888 Exports"
   category: "Web Design"
   date: "January 2017"
@@ -106,13 +120,13 @@
   web: "https://888exports.com.au"
   photo: "888exports.png"
   img-alt: "Triple Eight Exports"
-  id: "portfolioModal07"
+  id: "portfolioModal12"
   description: "Minnis Horticultural Services, a small family business, exports Australian fruit into Asian markets. The site, which uses their trading name 888 Exports needed a complete overhaul. Redeveloped to be a WordPress site for ease and simplicity. It was also redesigned to show the current produce they could export."
   claim: "A website for a small family run fruit exporting business"
   call-to-action: ""
   skill: "WordPress, custom WordPress themes, UI, SEO, custom wordpress plugins"
 
-- order: 016
+- order: 011
   name: "Digging Deeper"
   category: "Print and Layout"
   date: "September 2016"
@@ -120,14 +134,14 @@
   web: "http://superswitch.org.au/diggingdeeper/"
   photo: "diggingdeeper.jpg"
   img-alt: "Digging Deeper"
-  id: "portfolioModal16"
+  id: "portfolioModal11"
   description: "This report details how superannuation funds contribute to fossil fuel exploration. The continual exploration for fossil fuels could contribute to runaway climate change. The report show show staff and members of super funds can stop this support from continuing.
   <p>Click the link below to read the full report. The data is relevant to time of publishing."
   claim: "A report into Superannuation funds"
   call-to-action: ""
   skills: 'Adobe Indesign, Adobe Photoshop, Adobe Illustrator'
 
-- order: 013
+- order: 010
   name: "Insurance Campaigning"
   category: "Print and Layout"
   date: "July 2016"
@@ -135,14 +149,14 @@
   web: "https://www.marketforces.org.au/climate-change-made-possible-by-qbe/"
   photo: "agmcampaigning.png"
   img-alt: "Fueling the Fire"
-  id: "portfolioModal13"
+  id: "portfolioModal10"
   description: "The posters were part of a campaign to target a Australian insurer. The campaign exposed their hypocrisy when it comes to climate change. Based on their own styles, the posters used images of the consequences of climate change.
   <p>Follow the link to see the posters and the campaign in action."
   claim: "Posters to expose climate change hypocrisy."
   call-to-action: ""
   skills: 'Adobe Indesign, Adobe Illustrator, Adobe Photoshop'
 
-- order: 017
+- order: 009
   name: "International Internships Flyer"
   category: "Print and Layout"
   date: "March 2016"
@@ -150,13 +164,13 @@
   web: ""
   photo: "internationalinternshipsflyer.jpg"
   img-alt: "International Internships"
-  id: "portfolioModal17"
+  id: "portfolioModal09"
   description: "A flyer for business International Internships. International Internships offer intern places for university students in certain Asian countries."
   claim: "Information flyer"
   call-to-action: ""
   skills: 'Adobe Indesign, Adobe Illustrator, Adobe Photoshop'
 
-- order: 014
+- order: 008
   name: "Social Media Post Tony Abbott and Adani"
   category: "Graphic"
   date: "September 2015"
@@ -164,13 +178,13 @@
   web: ""
   photo: "socialmediapostabbottadani.jpg"
   img-alt: "Fracking Finance"
-  id: "portfolioModal14"
+  id: "portfolioModal08"
   description: "This is an example of a social media graphic. I created graphics like these to go with social media posts. Each graphic explains the claim of the post and provides a call to action for the reader."
   claim: "Social media graphic"
   call-to-action: ""
   skills: 'Adobe Illustrator' 
 
-- order: 011
+- order: 007
   name: "Fracking Finance"
   category: "Print and Layout"
   date: "August 2015"
@@ -178,13 +192,13 @@
   web: "https://www.marketforces.org.au/fracking-finance/"
   photo: "frackingfinancecover.png"
   img-alt: "Fracking Finance"
-  id: "portfolioModal11"
+  id: "portfolioModal07"
   description: "Designed the print and layout of a report into who is funding coal seam gas in Australia. Data is relevant to the time it was published. Follow the link to see the full report"
   claim: "Report into coal seam gas financing"
   call-to-action: ""
   skills: 'Adobe Indesign, Adobe Illustrator, Adobe Photoshop'  
 
-- order: 015
+- order: 006
   name: "Super Switch Avant Card"
   category: "Print and Layout"
   date: "August 2015"
@@ -192,13 +206,13 @@
   web: "https://www.superswitch.org.au"
   photo: "superswitchavantcard.png"
   img-alt: "Super Switch Avant Card"
-  id: "portfolioModal15"
+  id: "portfolioModal06"
   description: "Design for a postcard distributed throughout cafes by Avant Card. The postcard advertised Super Switch, trying to get the reader to visit the site. Avant Card rated the postcard as a high mover."
   claim: "Postcard design"
   call-to-action: ""
   skills: 'Adobe Indesign, Adobe Photoshop'
 
-- order: 012
+- order: 005
   name: "Fueling the Fire"
   category: "Print and Layout"
   date: "July 2015"
@@ -206,14 +220,14 @@
   web: "https://www.marketforces.org.au/fracking-finance/"
   photo: "fuelingthefirecover.jpg"
   img-alt: "Fueling the Fire"
-  id: "portfolioModal12"
+  id: "portfolioModal05"
   description: "A report into the financing banks are providing to fossil fuel projects in Australia. This was Market Force's major report of the year.
   <p>Click the link below to read the full report. The data is relevant to time of publishing."
   claim: "Report into "
   call-to-action: ""
   skills: 'Adobe Indesign, Adobe Illustrator, Adobe Photoshop'
 
-- order: 008
+- order: 004
   name: "Super Switch"
   category: "Web Development"
   date: "January 2015 - December 2016"
@@ -221,13 +235,13 @@
   web: "https://superswitch.org.au"
   photo: "superswitch.png"
   img-alt: "Super Switch"
-  id: "portfolioModal08"
+  id: "portfolioModal04"
   description: "Super Switch shows investments Superannuation funds have companies that contribute to climate change. The backend of the site allows for researchers to upload new data into a relation database (MySQL). The client side displays the data into graphs using Ajax and D3.js. The site also provides call to actions a member of a super fund can take.
   <p>It was successful in providing a new area in financial environmental divestment campaigning. And was a finalist in the Premiers Sustainability Awards in 2016."
   call-to-action: ""
   skills: 'WordPress, custom WordPress themes, relational databases (MySQl), Ajax, D3.js'
 
-- order: 018
+- order: 003
   name: "Commbank Banner"
   category: "Print and Layout"
   date: "February 2015"
@@ -235,13 +249,13 @@
   web: ""
   photo: "commbankbanner.jpg"
   img-alt: "Commbank banner"
-  id: "portfolioModal18"
+  id: "portfolioModal03"
   description: "The banner used during a day of action targeting a bank and their climate change record. The banner used similar slogans and colours  to make it feel as if it was their own advertisement."
   claim: "Campaigning Banner"
   call-to-action: ""
   skills: 'Adobe Indesign, Adobe Illustrator, Adobe Photoshop'
 
-- order: 009
+- order: 002
   name: "Market Forces"
   category: "Web Design"
   date: "January 2015 - December 2016"
@@ -249,13 +263,13 @@
   web: "https://marketforces.org.au"
   photo: "marketforces.png"
   img-alt: "Market Forces"
-  id: "portfolioModal09"
+  id: "portfolioModal02"
   description: "The main site of environmental divestment campaigning group Market Forces. The site required ongoing maintenance. Which included trouble shooting Wordpress and plugin issues. As well as improving the SEO and page speeds, image optimisation and page designs."
   claim: ""
   call-to-action: "The main site for the environmental campaigning group Market Forces."
   skills: 'WordPress, Wordpress child themes, Gravity Forms'
 
-- order: 010
+- order: 001
   name: "Renegade Custom Shirts"
   category: "Web Design"
   date: "January 2015"
@@ -263,7 +277,7 @@
   web: "http://renegadeshirts.com.au"
   photo: "renegadeshirts.png"
   img-alt: "renegade shirts"
-  id: "portfolioModal10"
+  id: "portfolioModal01"
   description: "Designed the website for a small business that produces and tailors male shirts. Built with GitHub the website is simple to display cuts and styles of the designer."
   claim: ""
   call-to-action: "A simple and clean website to display the wares of a shirt tailor based in Melbourne."
