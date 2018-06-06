@@ -1,34 +1,29 @@
 <!-- Portfolio items -->
-<section id="portfolio">
-    
-    <div class="container-fluid">
-        
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="entry-header">
-                    <h2>My Work</h2>
-                </div>
+<section class="portfolio pt-5 pb-5" id="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-8 ml-auto mr-auto">
+        <div class="grid-wrapper" id="portfolioGridWrapper">
+          <article class="portfolio-item section-heading wow bounceInLeft mb-4">
+            <div class="text-sm-right">
+              <h2>Portfolio</h2>
+              <p>Here is a collection of my professional work! Click to find out more.</p>
             </div>
-        </div>
+          </article><!-- .portfolio-item.section-heading -->
 
-        <ul class="grid effect-2" id="grid">
-            {% for project in site.data.portfolio %}
-                <li>
-                    <a href="#{{ project.id }}" class="portfolio-link" data-toggle="modal">
-                        <figure>
-                            <img src="/images/{{ project.photo }}" class="img-responsive" alt="{{ project.img-alt }}">
-                            <div class="grid-overlay text-center d-flex justify-content-center align-items-center">
-                                <span>
-                                    <i class="fa fa-plus fa-3x"></i>
-                                    <h3>{{ project.name }}</h3>
-                                </span>
-                            </div>
-                        </figure>
-                    </a>
-                </li>
-            {% endfor %}
-        </ul>
-
-    </div>
-</section>
-<!-- End portfolio items -->
+          {% for project in site.data.portfolio %}
+          <article class="portfolio-item wow mb-3">
+            <img src="/media/img/{{ project.photo }}" class="img-responsive" alt="{{ project.img-alt }}">
+            <div class="portfolio-overlay text-center">
+              <a class="d-flex flex-column justify-content-center align-items-center h-100 text-center" href="#{{ project.id }}" data-toggle="modal">
+                <i class="fas fa-plus fa-2x"></i>
+                <h5>{{ project.name }}</h5>
+              </a>
+            </div>
+          </article><!-- {{project.order}}-portfolio-item -->
+          {% endfor %}
+        </div><!-- .grid-wrapper -->
+      </div><!-- col-auto -->
+    </div><!-- .row -->
+  </div><!-- .container -->
+</section><!-- End portfolio items -->

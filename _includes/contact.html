@@ -1,13 +1,39 @@
-<section id="contact">
+<!-- Contact -->
+<section class="background-gray pt-5 pb-5" id="contact">
 
-    <div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-8 ml-auto mr-auto">
         <div class="row">
-            <div class="col-sm-12">
-                <div class="entry-header">
-                    <h2>Contact</h2>
-                </div>
-            </div>
-        </div>
-    </div>
+          <article class="col-sm-12 col-md-6 section-heading wow fadeInLeft" data-wow-duration="1.5s">
+            
+            <div class="text-sm-right">
+              <h2>Get in touch</h2>
+              <p>I'm available to work on any project you might have. Send through any questions you might have and I will get back to you when I can.</p>
+              <p>Or if you don't have any business at the moment and have questions about Ben Simmon's rookie of the year season. Or why this year is going to be the year Liverpool win the EPL, send it through.</p>
+              
+              <div class="follow-buttons mt-4 mb-2">
+                <a class="btn btn-follow btn-twitter-follow" href="https://instagram.com/silasjk" target="_BLANK">
+                  <i class="fab fa-instagram"></i>
+                  <span>follow my Instagram</span>
+                </a>
+                <a class="btn btn-follow btn-instagram-follow" href="https://twitter.com/intent/follow?screen_name=silasjk">
+                  <i class="fab fa-twitter"></i>
+                  <span>follow me on twitter</span>
+                </a>
+              </div><!-- .follow-buttons -->
+            </div><!-- header text -->
+          
+          </article><!-- .portfolio-item -->
 
+          <article class="col-sm-12 col-md-6 section-heading contact-form-wrapper right wow fadeInRight" data-wow-duration="1.5s">
+            <div class="p-sm-3 mt-3 mt-sm-0">
+              <p>Enter your details below</p>
+              {% include contact-form.html %}
+            </div>
+          </article><!-- .portfolio-item -->
+        </div>
+      </div><!-- inner column -->
+    </div><!-- .row -->
+  </div><!-- .container -->
 </section><!-- #contact -->
