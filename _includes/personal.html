@@ -1,0 +1,32 @@
+<!-- Portfolio items -->
+<section class="personal pt-5 pb-5" id="personal">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-8 ml-auto mr-auto">
+        <div class="grid-wrapper" id="">
+          <article class="portfolio-item section-heading wow bounceInLeft mb-4">
+            <div class="text-sm-right">
+              <h2>Personal Collection</h2>
+              <p>Sometimes, to keep my skills fresh, I get bored and I do my own thing. Most of this is uploaded to my <a href="https://instagram.com/silasjk" target="_BLANK">instagram</a>, so be sure to follow me.</p>
+            </div>
+          </article><!-- .portfolio-item.section-heading -->
+
+          {% for personal in site.data.personal %}
+          <article class="portfolio-item personal-item wow mb-3">
+           
+            <img src="/media/img/{{ personal.image }}" class="img-responsive" alt="{{ personal.name }}">
+
+            <div class="personal-overlay d-flex justify-content-center align-items-center">
+              <a href="{{personal.url}}" target="_BLANK" class="text-center">
+                <i class="far fa-heart"></i>
+                <p>Like on Instagram</p>
+              </a>
+            </div>
+
+          </article><!-- {{personal.order}}-portfolio-item -->
+          {% endfor %}
+        </div><!-- .grid-wrapper -->
+      </div><!-- col-auto -->
+    </div><!-- .row -->
+  </div><!-- .container -->
+</section><!-- End portfolio items -->
